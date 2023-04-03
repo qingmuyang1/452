@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Total Score and Average Score</h1>
+
+<p>If you need help with the calculation?</p >
+
+<button onclick="myFunction()">Yes</button>
+
+<p id="demo"></p >
+
+<script>
+function myFunction() {
+  let person = prompt("Please enter your full name", "");
+  if (person != null) {
+    let a = prompt("Please enter your Unit 1", "");
+    let b = prompt("Please enter your Unit 2", "");
+    let c = prompt("Please enter your Unit 3", "");
+    let d = prompt("Please enter your Unit 4", "");
+    let A = Number(a)
+    let B = Number(b)
+    let C = Number(c)
+    let D = Number(d)
+    let z = 4
+    let x = A + B + C + D
+    let y = ( A + B + C + D ) / z
+document.getElementById("demo").innerHTML =
+    "Hello " + person + "! Your total score is " + x +". Your average score is " + y + ". Thank you for using the program."
+  }
+
+}
+</script>
+
+</body>
+</html>
