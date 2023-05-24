@@ -105,3 +105,9 @@ body{
     margin: auto;
   width: 50%;
 }
+#fk{
+     width: 2000px;
+     max-width: 100%;
+    font-size: 20pt;
+    align-items: center;
+}
