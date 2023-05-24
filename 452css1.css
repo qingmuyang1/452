@@ -88,6 +88,7 @@ body{
   width: 2000px;
   max-width: 100%;
   background-color: rgb(253, 213, 36); 
+   font-size: 25pt;
 }
 #h1{
     text-shadow: 2px 2px #3a0909; 
